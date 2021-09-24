@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background-image: url(../images/baner-img.png);
+    background-size: cover;
+    background: #7d7565; 
+}
+header{
+    display: flex;
+    align-items: center;
+    /* background: #7d7565; */
+}
+header .navbar ul{
+      list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+header .navbar ul li a:hover{
+    background: #7d7565;
+    color: #fff;
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    display: none;
+    background: #f7a73e;
+}
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+header .navbar ul li:last-child{
+     float: left;
+     background: #f7a73e;
+     border-radius: 10px;
+}
+
+.container{
+    display: flex;
+}
+.half-width{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+    width: 50%;
+}
+.half-width img{
+    width: 90%;
+}
+.half-width h1{
+    font-size: 40px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.half-width h2{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.half-width p{
+    font-size: 25px;
+}
+.button{
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 15px;
+    border: 1px solid #f7a73e;
+    border-radius: 10px;
+    background: #f7a73e;
+    font-weight: 700;
+}
